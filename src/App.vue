@@ -1,3 +1,6 @@
+<style>
+  @import './assets/style.css';
+</style>
 <template>
   <v-app>
     <v-main>
