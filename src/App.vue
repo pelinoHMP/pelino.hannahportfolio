@@ -1,25 +1,25 @@
 <style>
-  @import './assets/style.css';
+@import "./assets/style.css";
 </style>
 <template>
   <v-app>
     <v-main>
       <Header/>
     </v-main>
-  </v-app>
+  </v-app>  
 </template>
 
 <script>
-import Header from '@/components/Header';
+import Header from "@/components/Header";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header
   },
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>
