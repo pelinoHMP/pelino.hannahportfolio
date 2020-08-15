@@ -1,22 +1,22 @@
-<style>
-@import "./assets/style.css";
-</style>
+
 <template>
-  <v-app>
+  <!-- <v-app>
     <v-main>
-      <Header/>
+      <Home/>
     </v-main>
-  </v-app>  
+  </v-app>-->
+  <div>
+      <Home></Home>
+  </div>
 </template>
-
+<style scoped src="@/assets/style.css">
+</style>
 <script>
-import Header from "@/components/Header";
-import TypeEffect from './components/TypeEffect.vue'
-
+import Home from "./views/Home";
 export default {
   name: "App",
   components: {
-    Header
+    Home
   },
 
   data: () => ({
